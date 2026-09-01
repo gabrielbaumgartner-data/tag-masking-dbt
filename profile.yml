@@ -1,0 +1,12 @@
+tag_masking_dbt:
+  target: prod
+  outputs:
+    prod:
+      type: snowflake
+      account: 'not needed'
+      user: 'not needed'
+      role: DBT_ROLE_PROD
+      database: TAG_MASKING_DBT_DB
+      warehouse: TAG_MASKING_DBT_WH
+      schema: public
+      threads: 4
