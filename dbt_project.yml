@@ -1,13 +1,13 @@
 config-version: 2
 
-name: "jaffle_shop"
+name: "tag_masking_dbt"
 version: "3.0.0"
 require-dbt-version: ">=1.12.0"
 
 dbt-cloud:
   project-id: 275557 # Put your project id here
 
-profile: default # Put your profile here
+profile: "tag_masking_dbt" # Matches the profile name in ~/.dbt/profiles.yml or project profile.yml
 
 model-paths: ["models"]
 analysis-paths: ["analyses"]
