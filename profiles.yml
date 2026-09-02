@@ -3,10 +3,12 @@ tag_masking_dbt:
   outputs:
     prod:
       type: snowflake
-      account: 'not needed'
-      user: 'not needed'
-      role: DBT_ROLE_PROD
-      database: TAG_MASKING_DBT_DB
-      warehouse: TAG_MASKING_DBT_WH
-      schema: public
+      account: 'ZNYBYUE-AN19379'
+      user: 'GABRIELBAUMGARTNER'
+      password: 'Matadouro0000!'
+      role: 'DBT_ROLE_PROD'
+      database: 'TAG_MASKING_DBT_DB'
+      warehouse: 'TAG_MASKING_DBT_WH'
+      schema: 'RAW'
       threads: 4
+      client_session_keep_alive: true
