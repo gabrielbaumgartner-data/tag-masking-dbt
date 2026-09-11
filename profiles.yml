@@ -6,6 +6,7 @@ tag_masking_dbt:
       account: 'ZNYBYUE-AN19379'
       user: 'GABRIELBAUMGARTNER'
       password: 'Matadouro0000!'
+      authenticator: username_password_mfa
       role: 'DBT_ROLE_PROD'
       database: 'TAG_MASKING_DBT_DB'
       warehouse: 'TAG_MASKING_DBT_WH'

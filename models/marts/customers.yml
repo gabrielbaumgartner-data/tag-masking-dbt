@@ -21,6 +21,10 @@ models:
         description: Customers' full name.
         dimension:
           type: categorical
+      - name: cpf
+        description: Customer's CPF.
+        dimension:
+          type: categorical
       - name: count_lifetime_orders
         description: Total number of orders a customer has ever placed.
       - name: first_ordered_at
